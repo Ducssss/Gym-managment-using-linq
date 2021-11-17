@@ -1,14 +1,14 @@
-1. Cho biết mã khách hàng và tên khách hàng của phong gym Q9.
-2. Cho biết địa chỉ, tên và số điện thoại của các khách hàng loại VIP.
-3. Cho biết số lượng tiền trong một giao dịch của khách hàng.
-4. Cho biết  tên pt tập cùng với thành viên.
-5. Cho biết các tài khoản đã hết hạn.
-6. Liệt kê mã và địa chỉ các chi nhánh của phòng Gym Duc-Uyen.
-7. Cho biết mã và địa chỉ của các thiết bị không hoạt động.
-8. Liệt kê danh sách khách hàn đã gia hạn thẻ.
-9. Cho biết số lần giao dịch của khách hàng nhiều nhất. 
+1.  Cho biết mã khách hàng và tên khách hàng của phong gym Q9.
+2.  Cho biết địa chỉ, tên và số điện thoại của các khách hàng loại VIP.
+3.  Cho biết số lượng tiền nhiều nhất trong một giao dịch của khách hàng.
+4.  Cho biết học viên Nguyễn Văn A đã tham gia những lớp học nào trog phòg gym Q9 .
+5.  Cho biết các tài khoản đã hết hạn.
+6.  Liệt kê mã và địa chỉ các chi nhánh của phòng Gym Duc-Uyen.
+7.  Cho biết mã và địa chỉ của các thiết bị không hoạt động.
+8.  Cho biết những thành viên nào sở hữu thẻ diamond tại phòg tập gym q9.
+9.  Cho biết số lần giao dịch của khách hàng nhiều nhất. 
 10. Liệt kê tên các nhân viên là PT ở Q12.
-11 .Liệt kê những trainor làm việc tại phòng GYM Q9.
+11. Liệt kê những trainor làm việc tại phòng GYM Q9.
 12. Cho biết email và SĐT của những thành viên không học lớp Dance sáng t5 từ 7h đến 9h ở Q9.
 13. Cho biết trainor nào có lương cao nhất trong CLB ở Q9.
 14. Cho biết trainor nào có lương thấp nhất trong CLB ở Q9.
