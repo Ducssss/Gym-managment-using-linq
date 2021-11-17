@@ -1,4 +1,4 @@
-1. Cho biết mã khách hàng và tên khách hàng của phong gym.
+1. Cho biết mã khách hàng và tên khách hàng của phong gym Q9.
 2. Cho biết địa chỉ, tên và số điện thoại của các khách hàng loại VIP.
 3. Cho biết số lượng tiền trong một giao dịch của khách hàng.
 4. Cho biết  tên pt tập cùng với thành viên.
