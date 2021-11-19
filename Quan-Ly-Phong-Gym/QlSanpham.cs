@@ -6,27 +6,27 @@ using System.Threading.Tasks;
 
 namespace Quan_Ly_Phong_Gym
 {
-    class QlSanpham
+    public class QlSanpham
     {
         public int mahang { get; set; }
         public string thoiDiemDat { get; set; }
         public Sanpham sanpham { get; set; }
-        public Gym gym { get; set; }
+        public Thanhvien thanhvien { get; set; }
 
-        public QlSanpham(int mahang, string thoiDiem, Sanpham sanpham, Gym gym)
+        public QlSanpham(int mahang, string thoiDiemDat, Sanpham sanpham, Thanhvien thanhvien)
         {
             this.mahang = mahang;
-            this.thoiDiemDat = thoiDiem;
+            this.thoiDiemDat = thoiDiemDat;
             this.sanpham = sanpham;
-            this.gym = gym;
+            this.thanhvien = thanhvien;
         }
 
         public QlSanpham(QlSanpham qs)
         {
-            this.mahang = qs.mahang;
-            this.thoiDiemDat = qs.thoiDiemDat;
-            this.sanpham = qs.sanpham;
-            this.gym = qs.gym;
+            mahang = qs.mahang;
+            thoiDiemDat = qs.thoiDiemDat;
+            sanpham = qs.sanpham;
+            thanhvien = qs.thanhvien;
         }
     }
 }

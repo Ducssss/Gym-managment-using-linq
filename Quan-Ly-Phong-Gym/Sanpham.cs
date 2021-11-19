@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Quan_Ly_Phong_Gym
 {
-    enum loaitinhtrang
+    public enum loaitinhtrang
     {
         quahan,huhong,tot
     }
-    class Sanpham
+    public class Sanpham
     {
         public int ID_SP { get; set; }
         public string Ten_SP { get; set; }

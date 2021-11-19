@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Quan_Ly_Phong_Gym
 {
-    class LoaiSP
+    public class LoaiSP
     {
         public int maLoai { get; set; }
         public string tenLoai { get; set; }
@@ -19,8 +19,8 @@ namespace Quan_Ly_Phong_Gym
 
         public LoaiSP(LoaiSP Loai)
         {
-            this.tenLoai = Loai.tenLoai;
-            this.maLoai = Loai.maLoai;
+            tenLoai = Loai.tenLoai;
+            maLoai = Loai.maLoai;
         }
     }
 }

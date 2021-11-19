@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Quan_Ly_Phong_Gym
 {
-    class Lichtap
+    public class Lichtap
     {
-         public int sched_ID { get; set; }
+        public int sched_ID { get; set; }
         public string session { get; set; }
         public string activity { get; set; }
         public DateTime? date { get; set; }

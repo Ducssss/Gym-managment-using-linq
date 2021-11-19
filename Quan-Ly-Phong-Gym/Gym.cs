@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Quan_Ly_Phong_Gym
 {
-    class Gym
+    public class Gym
     {
         public int maphongGym { get; set; }
         public string tenphongGym { get; set; }

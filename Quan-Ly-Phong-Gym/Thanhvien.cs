@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Quan_Ly_Phong_Gym
 {
-    class Thanhvien
+    public class Thanhvien
     {
         public int ma_TV { get; set; }
         public string ten_TV { get; set; }
@@ -15,8 +15,9 @@ namespace Quan_Ly_Phong_Gym
         public string SDT { get; set; }
         public The the { get; set; }
         public Lichtap lichtap { get; set; }
+        public Chinhanh chinhanh { get; set; }
 
-        public Thanhvien(int ma_TV, string ten_TV, bool gioiTinh, string DiaChi, string SDT, The the, Lichtap lichtap)
+        public Thanhvien(int ma_TV, string ten_TV, bool gioiTinh, string DiaChi, string SDT, The the, Lichtap lichtap, Chinhanh chinhanh)
         {
             this.ma_TV = ma_TV;
             this.ten_TV = ten_TV;
@@ -25,6 +26,7 @@ namespace Quan_Ly_Phong_Gym
             this.SDT = SDT;
             this.the = the;
             this.lichtap = lichtap;
+            this.chinhanh = chinhanh;
         }
 
         public Thanhvien(Thanhvien Thanhvien)
@@ -36,6 +38,7 @@ namespace Quan_Ly_Phong_Gym
             SDT = Thanhvien.SDT;
             the = Thanhvien.the;
             lichtap = Thanhvien.lichtap;
+            chinhanh = Thanhvien.chinhanh;
         }
 
     }

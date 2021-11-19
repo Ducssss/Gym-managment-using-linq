@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Quan_Ly_Phong_Gym
 {
-    class Giaodich
+    public class Giaodich
     {
         public int trans_ID { get; set; }
         public string trans_name { get; set; }

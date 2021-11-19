@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Quan_Ly_Phong_Gym
 {
-    enum LoaiNV{ manager,PT,receptionist}
-    class Nhanvien
+    public enum LoaiNV{ manager,PT,receptionist}
+    public class Nhanvien
     {
         public int ma_nv { get; set; }
         public string ten_nv { get; set; }
@@ -16,8 +16,9 @@ namespace Quan_Ly_Phong_Gym
         public string SDT { get; set; }
         public int tienluong { get; set; }
         public LoaiNV loaiNV { get; set; }
-        public Lichtap lichtap { get; set; }
-        public Nhanvien(int ma_nv, string ten_nv, bool gioiTinh, string diaChi, string SDT, int tienluong, LoaiNV loaiNV, Lichtap lichtap)
+        public Lichtap lichlam { get; set; }
+        public Chinhanh chinhanh { get; set; }
+        public Nhanvien(int ma_nv, string ten_nv, bool gioiTinh, string diaChi, string SDT, int tienluong, LoaiNV loaiNV, Lichtap lichlam,Chinhanh chinhanh)
         {
             this.ma_nv = ma_nv;
             this.ten_nv = ten_nv;
@@ -26,7 +27,8 @@ namespace Quan_Ly_Phong_Gym
             this.SDT = SDT;
             this.tienluong = tienluong;
             this.loaiNV = loaiNV;
-            this.lichtap = lichtap;
+            this.lichlam = lichlam;
+            this.chinhanh = chinhanh;
         }
         public Nhanvien(Nhanvien nv)
         {
@@ -37,7 +39,8 @@ namespace Quan_Ly_Phong_Gym
             SDT = nv.SDT;
             tienluong = nv.tienluong;
             loaiNV = nv.loaiNV;
-            lichtap = nv.lichtap;
+            lichlam = nv.lichlam;
+            chinhanh = nv.chinhanh;
         }
     }
 }

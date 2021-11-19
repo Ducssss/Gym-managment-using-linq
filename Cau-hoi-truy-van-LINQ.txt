@@ -1,20 +1,20 @@
 1.  Cho biết mã khách hàng và tên khách hàng của phong gym Q9.
-2.  Cho biết địa chỉ, tên và số điện thoại của các khách hàng loại VIP.
-3.  Cho biết số lượng tiền nhiều nhất trong một giao dịch của khách hàng.
+2.  Cho biết tên của những thành viên mua sản phẩm wale ở phòng gym Q9
+3.  Cho biết tên phòng gym có doanh thu thấp nhất.
 4.  Cho biết học viên Nguyễn Văn A đã tham gia những lớp học nào trog phòg gym Q9 .
 5.  Cho biết các tài khoản đã hết hạn.
-6.  Liệt kê mã và địa chỉ các chi nhánh của phòng Gym Duc-Uyen.
-7.  Cho biết mã và địa chỉ của các thiết bị không hoạt động.
-8.  Cho biết những thành viên nào sở hữu thẻ diamond tại phòg tập gym q9.
-9.  Cho biết số lần giao dịch của khách hàng nhiều nhất. 
-10. Liệt kê tên các nhân viên là PT ở Q12.
-11. Liệt kê những trainor làm việc tại phòng GYM Q9.
-12. Cho biết email và SĐT của những thành viên không học lớp Dance sáng t5 từ 7h đến 9h ở Q9.
-13. Cho biết trainor nào có lương cao nhất trong CLB ở Q9.
-14. Cho biết trainor nào có lương thấp nhất trong CLB ở Q9.
+6.  Liệt kê mã và địa chỉ chi nhánh của phòng Gym Duc-Uyen.
+7.  Cho biết mã và tên thiết bị không hoạt động ở phòng gym Q9.
+8.  Cho biết những thành viên nào sở hữu thẻ platium tại phòg tập gym q9.
+9.  Cho biết loại giao dịch của thành viên tên Đức nhiều nhất. 
+10. Liệt kê tên các nhân viên là PT ở Q9.
+11. Cho biết doanh thu cao nhất trong các chi nhánh phòng gym.
+12. Cho biết email và SĐT của những thành viên học lớp Dance sáng t5 từ 7h đến 9h ở Q9.
+13. Cho biết PT nào có lương cao nhất trong CLB ở Q9.
+14. Cho biết PT nào có lương thấp nhất trong CLB ở Q9.
 15. Cho biết lịch giảng dạy của HLV Al Morgan ở Q9.
 16. Cho biết mã học viên,họ và tên những học viên học lớp Yoga chiều T6 từ 15h đến 17h ở Q9.
-17. Liệt kê những học viên lớp Kickfit đã thanh toán học phí Tháng 10 năm 2021 ở Q9.
+17. Cho biết loại sản phẩm được ưa chuộng nhất ở phòng gym Q9.
 18. Cho biết thiết bị có giá tiền mắc nhất.
 19. Cho biết phòng Gym nào có số lượng thiết bị hỏng nhiều nhất.
 20. Cho biết phòng Gym nào có số lượng thiết bị hỏng ít nhất.
