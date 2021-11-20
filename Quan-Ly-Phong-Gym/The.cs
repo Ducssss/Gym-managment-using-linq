@@ -14,13 +14,13 @@ namespace Quan_Ly_Phong_Gym
     public class The
     {
 
-        public int ma_the { get; set; }
+        public long ma_the { get; set; }
         /*public TaiKhoan taiKhoan { get; set; }*/
         public Loaithe loaithe { get; set; }
         public string ngayCap { get; set; }
         public string thoiHan { get; set; }
         public Trangthai trangthai { get; set; }
-        public The(int ma_the, Loaithe loaithe, string ngayCap, string thoiHan, Trangthai trangthai)
+        public The(long ma_the, Loaithe loaithe, string ngayCap, string thoiHan, Trangthai trangthai)
         {
             this.ma_the = ma_the;
             this.loaithe = loaithe;

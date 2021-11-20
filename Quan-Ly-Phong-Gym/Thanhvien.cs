@@ -8,21 +8,21 @@ namespace Quan_Ly_Phong_Gym
 {
     public class Thanhvien
     {
-        public int ma_TV { get; set; }
+        public long ma_TV { get; set; }
         public string ten_TV { get; set; }
-        public bool gioiTinh { get; set; }
+        public string gioiTinh { get; set; }
         public string diaChi { get; set; }
         public string SDT { get; set; }
         public The the { get; set; }
         public Lichtap lichtap { get; set; }
         public Chinhanh chinhanh { get; set; }
 
-        public Thanhvien(int ma_TV, string ten_TV, bool gioiTinh, string DiaChi, string SDT, The the, Lichtap lichtap, Chinhanh chinhanh)
+        public Thanhvien(long ma_TV, string ten_TV, bool gioiTinh, string diaChi, string SDT, The the, Lichtap lichtap, Chinhanh chinhanh)
         {
             this.ma_TV = ma_TV;
             this.ten_TV = ten_TV;
-            this.gioiTinh = gioiTinh;
-            this.diaChi = DiaChi;
+            this.gioiTinh = (gioiTinh==true)?"Nam":"Nu";
+            this.diaChi = diaChi;
             this.SDT = SDT;
             this.the = the;
             this.lichtap = lichtap;

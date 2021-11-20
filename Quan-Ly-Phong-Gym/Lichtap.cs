@@ -8,15 +8,15 @@ namespace Quan_Ly_Phong_Gym
 {
     public class Lichtap
     {
-        public int sched_ID { get; set; }
+        public string sched_ID { get; set; }
         public string session { get; set; }
         public string activity { get; set; }
-        public DateTime? date { get; set; }
+        public string date { get; set; }
         public string time_start { get; set; }
         public string time_end { get; set; }
         /*public client_member client_ { get; set; }
         public Trainor trainor { get; set; }*/
-        public Lichtap(int sched_ID, string session,string activity,DateTime date,string time_start,string time_end)
+        public Lichtap(string sched_ID, string session,string activity, string date,string time_start,string time_end)
         {
             this.sched_ID = sched_ID;
             this.session = session;
