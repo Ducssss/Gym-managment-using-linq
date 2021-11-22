@@ -11,9 +11,9 @@ namespace Quan_Ly_Phong_Gym
         public int trans_ID { get; set; }
         public string trans_name { get; set; }
         public int money { get; set; }
-        public DateTime? date { get; set; }
+        public string date { get; set; }
         public Thanhvien thanhvien { get; set; }
-        public Giaodich(int trans_ID, string trans_name, int money, DateTime date, Thanhvien thanhvien)
+        public Giaodich(int trans_ID, string trans_name, int money, string date, Thanhvien thanhvien)
         {
             this.trans_ID = trans_ID;
             this.trans_name = trans_name;

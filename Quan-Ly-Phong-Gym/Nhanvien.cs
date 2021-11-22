@@ -13,12 +13,12 @@ namespace Quan_Ly_Phong_Gym
         public string ten_nv { get; set; }
         public bool gioiTinh { get; set; }
         public string diaChi { get; set; }
-        public string SDT { get; set; }
+        public long SDT { get; set; }
         public int tienluong { get; set; }
         public LoaiNV loaiNV { get; set; }
-        public Lichtap lichlam { get; set; }
+        public ICollection<Lichtap> lichlam { get; set; }
         public Chinhanh chinhanh { get; set; }
-        public Nhanvien(int ma_nv, string ten_nv, bool gioiTinh, string diaChi, string SDT, int tienluong, LoaiNV loaiNV, Lichtap lichlam,Chinhanh chinhanh)
+        public Nhanvien(int ma_nv, string ten_nv, bool gioiTinh, string diaChi, long SDT, int tienluong, LoaiNV loaiNV, ICollection<Lichtap> lichlam,Chinhanh chinhanh)
         {
             this.ma_nv = ma_nv;
             this.ten_nv = ten_nv;

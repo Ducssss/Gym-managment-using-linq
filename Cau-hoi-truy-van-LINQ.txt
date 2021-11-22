@@ -1,4 +1,4 @@
-1.  Cho biết mã khách hàng và tên khách hàng của phong gym Q9.
+1.  Cho biết mã thành viên và tên thành viên của phong gym Q9.
 2.  Cho biết tên của những thành viên mua sản phẩm wale ở phòng gym Q9
 3.  Cho biết tên phòng gym có doanh thu thấp nhất.
 4.  Cho biết học viên Nguyễn Văn A đã tham gia những lớp học nào trog phòg gym Q9 .

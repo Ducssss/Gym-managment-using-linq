@@ -14,10 +14,10 @@ namespace Quan_Ly_Phong_Gym
         public string diaChi { get; set; }
         public string SDT { get; set; }
         public The the { get; set; }
-        public Lichtap lichtap { get; set; }
+        public ICollection<Lichtap> lichtap { get; set; }
         public Chinhanh chinhanh { get; set; }
 
-        public Thanhvien(long ma_TV, string ten_TV, bool gioiTinh, string diaChi, string SDT, The the, Lichtap lichtap, Chinhanh chinhanh)
+        public Thanhvien(long ma_TV, string ten_TV, bool gioiTinh, string diaChi, string SDT, The the, ICollection<Lichtap> lichtap, Chinhanh chinhanh)
         {
             this.ma_TV = ma_TV;
             this.ten_TV = ten_TV;

@@ -1,0 +1,16 @@
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\bin\Debug\net5.0\Quan-Ly-Phong-Gym.exe
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\bin\Debug\net5.0\Quan-Ly-Phong-Gym.deps.json
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\bin\Debug\net5.0\Quan-Ly-Phong-Gym.runtimeconfig.json
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\bin\Debug\net5.0\Quan-Ly-Phong-Gym.runtimeconfig.dev.json
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\bin\Debug\net5.0\Quan-Ly-Phong-Gym.dll
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\bin\Debug\net5.0\ref\Quan-Ly-Phong-Gym.dll
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\bin\Debug\net5.0\Quan-Ly-Phong-Gym.pdb
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\obj\Debug\net5.0\Quan-Ly-Phong-Gym.csproj.AssemblyReference.cache
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\obj\Debug\net5.0\Quan-Ly-Phong-Gym.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\obj\Debug\net5.0\Quan-Ly-Phong-Gym.AssemblyInfoInputs.cache
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\obj\Debug\net5.0\Quan-Ly-Phong-Gym.AssemblyInfo.cs
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\obj\Debug\net5.0\Quan-Ly-Phong-Gym.csproj.CoreCompileInputs.cache
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\obj\Debug\net5.0\Quan-Ly-Phong-Gym.dll
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\obj\Debug\net5.0\ref\Quan-Ly-Phong-Gym.dll
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\obj\Debug\net5.0\Quan-Ly-Phong-Gym.pdb
+E:\Programs\C#\Quan-Ly-Phong-Gym\Quan-Ly-Phong-Gym\obj\Debug\net5.0\Quan-Ly-Phong-Gym.genruntimeconfig.cache
