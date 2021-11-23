@@ -1,8 +1,8 @@
 1.  Cho biết mã thành viên và tên thành viên của phong gym Q9.
-2.  Cho biết tên của những thành viên mua sản phẩm wale ở phòng gym Q9
-3.  Cho biết tên phòng gym có doanh thu thấp nhất.
+2.  Cho biết tên của những thành viên mua sản phẩm Whey Protein ở phòng gym Q9
+3.  Cho biết chi nhánh nào có doanh thu thấp nhất trong quý 1.
 4.  Cho biết học viên Nguyễn Văn A đã tham gia những lớp học nào trog phòg gym Q9 .
-5.  Cho biết các tài khoản đã hết hạn.
+5.  Cho biết các loại thẻ đã hết hạn và tên thành viên sở hữu thẻ.
 6.  Liệt kê mã và địa chỉ chi nhánh của phòng Gym Duc-Uyen.
 7.  Cho biết mã và tên thiết bị không hoạt động ở phòng gym Q9.
 8.  Cho biết những thành viên nào sở hữu thẻ platium tại phòg tập gym q9.

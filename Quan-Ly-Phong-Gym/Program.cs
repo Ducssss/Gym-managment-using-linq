@@ -39,7 +39,7 @@ namespace Quan_Ly_Phong_Gym
             chiNhanh.Add(new Chinhanh(214, gym[2], "Quan 9"));
             chiNhanh.Add(new Chinhanh(216, gym[1], "Quan Thu Duc"));
             chiNhanh.Add(new Chinhanh(217, gym[0], "Quan Binh Thanh"));
-            chiNhanh.Add(new Chinhanh(316, gym[1], "Quan 1"));
+            chiNhanh.Add(new Chinhanh(316, gym[1], "Quan 5"));
             chiNhanh.Add(new Chinhanh(322, gym[0], "Quan 3"));
         }
         public static void TaoloaiSP()
@@ -148,7 +148,7 @@ namespace Quan_Ly_Phong_Gym
             thanhvien.Add(new Thanhvien(201867690135, "Le Thi R",     false,"150 Dang Van Bi",          "3558743834", the[0], new List<Lichtap>(), chiNhanh[4]));
             thanhvien.Add(new Thanhvien(005892218193, "Vo Thi U",     false,"25/14 Ly Thuong Kiet",     "9699626970", the[0], new List<Lichtap>(), chiNhanh[1]));
             thanhvien.Add(new Thanhvien(336375368077, "Chu Van J",    true, "214/22 Duong So 6",        "9627148492", the[3], new List<Lichtap>(), chiNhanh[3]));
-            thanhvien.Add(new Thanhvien(287165352304, "Ho Thi I",     false,"465/30 Tran Hung Dao",     "6906623185", the[4], new List<Lichtap>(), chiNhanh[0]));
+            thanhvien.Add(new Thanhvien(287165352304, "Ho Thi I",     false,"465/30 Tran Hung Dao",     "6906623185", the[5], new List<Lichtap>(), chiNhanh[0]));
             thanhvien.Add(new Thanhvien(229319933926, "Lai Van Y",    true, "195 Vo Van Ngan",          "1064619458", the[2], new List<Lichtap>(), chiNhanh[1]));
             thanhvien.Add(new Thanhvien(073521329738, "Duong Thi B",  false,"112 Le Van Viet",          "9924086803", the[0], new List<Lichtap>(), chiNhanh[3]));
             thanhvien.Add(new Thanhvien(341671974708, "Huynh Thi K",  false,"25/6 Ly thuong Kiet",      "9924086803", the[3], new List<Lichtap>(), chiNhanh[4]));
@@ -200,15 +200,15 @@ namespace Quan_Ly_Phong_Gym
         public static void Taoquanlisanpham()
         {
 
-            qlsp.Add(new QlSanpham(711085122, "03/11/2021", sp[0], thanhvien[14]));
+            qlsp.Add(new QlSanpham(711085122, "03/11/2021", sp[0], thanhvien[3]));
             qlsp.Add(new QlSanpham(711085124, "05/11/2021", sp[4], thanhvien[7]));
-            qlsp.Add(new QlSanpham(711085131, "09/11/2021", sp[7], thanhvien[5]));
+            qlsp.Add(new QlSanpham(711085131, "09/11/2021", sp[0], thanhvien[5]));
             qlsp.Add(new QlSanpham(711085129, "29/10/2021", sp[5], thanhvien[2]));
-            qlsp.Add(new QlSanpham(711085125, "24/10/2021", sp[8], thanhvien[0]));
+            qlsp.Add(new QlSanpham(711085125, "24/10/2021", sp[0], thanhvien[8]));
             qlsp.Add(new QlSanpham(711085130, "21/10/2021", sp[9], thanhvien[1]));
-            qlsp.Add(new QlSanpham(711085127, "02/11/2021", sp[6], thanhvien[10]));
+            qlsp.Add(new QlSanpham(711085127, "02/11/2021", sp[0], thanhvien[10]));
             qlsp.Add(new QlSanpham(711085126, "21/11/2021", sp[2], thanhvien[12]));
-            qlsp.Add(new QlSanpham(711085129, "16/11/2021", sp[5], thanhvien[6]));
+            qlsp.Add(new QlSanpham(711085129, "16/11/2021", sp[0], thanhvien[11]));
             qlsp.Add(new QlSanpham(711085123, "10/11/2021", sp[4], thanhvien[5]));
 
         }
@@ -218,15 +218,15 @@ namespace Quan_Ly_Phong_Gym
             giaodich.Add(new Giaodich(1002, "Giao dich 1002", 400000, "01-10-2021", thanhvien[1]));
             giaodich.Add(new Giaodich(1003, "Giao dich 1003", 400000, "24-09-2021", thanhvien[2]));
             giaodich.Add(new Giaodich(1004, "Giao dich 1004", 2400000, "30-09-2021", thanhvien[3]));
-            giaodich.Add(new Giaodich(1005, "Giao dich 1005", 1800000, "05-10-2021", thanhvien[4]));
+            giaodich.Add(new Giaodich(1005, "Giao dich 1005", 1800000, "05-10-2021", thanhvien[5]));
             giaodich.Add(new Giaodich(1006, "Giao dich 1006", 400000, "09-10-2021", thanhvien[5]));
-            giaodich.Add(new Giaodich(1007, "Giao dich 1007", 400000, "02-10-2021", thanhvien[6]));
-            giaodich.Add(new Giaodich(1008, "Giao dich 1008", 400000, "15-10-2021", thanhvien[7]));
-            giaodich.Add(new Giaodich(1009, "Giao dich 1009", 400000, "12-10-2021", thanhvien[8]));
-            giaodich.Add(new Giaodich(1010, "Giao dich 1010", 800000, "10-10-2021", thanhvien[9]));
+            giaodich.Add(new Giaodich(1007, "Giao dich 1007", 300000, "02-10-2021", thanhvien[2]));
+            giaodich.Add(new Giaodich(1008, "Giao dich 1008", 1000000, "15-10-2021", thanhvien[2]));
+            giaodich.Add(new Giaodich(1009, "Giao dich 1009", 400000, "12-10-2021", thanhvien[4]));
+            giaodich.Add(new Giaodich(1010, "Giao dich 1010", 800000, "10-10-2021", thanhvien[6]));
             giaodich.Add(new Giaodich(1008, "Giao dich 1008", 400000, "25-09-2021", thanhvien[10]));
-            giaodich.Add(new Giaodich(1008, "Giao dich 1008", 1800000, "22-09-2021", thanhvien[11]));
-            giaodich.Add(new Giaodich(1008, "Giao dich 1008", 400000, "26-09-2021", thanhvien[12]));
+            giaodich.Add(new Giaodich(1008, "Giao dich 1008", 1800000, "22-09-2021", thanhvien[13]));
+            giaodich.Add(new Giaodich(1008, "Giao dich 1008", 400000, "26-09-2021", thanhvien[14]));
             giaodich.Add(new Giaodich(1008, "Giao dich 1008", 800000, "08-10-2021", thanhvien[13]));
             giaodich.Add(new Giaodich(1008, "Giao dich 1008", 1200000, "11-10-2021", thanhvien[14]));
 
@@ -236,52 +236,41 @@ namespace Quan_Ly_Phong_Gym
         }
         public static void Taodanhsachbaocaodoanhthu()
         {
-            baocaodoanhthu.Add(new Baocaodoanhthu(01, "Doanh thu quý 1", "31/03/2021", chiNhanh[0], 850000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(01, "Doanh thu quý 1", "31/03/2021", chiNhanh[5], 850000000));
             baocaodoanhthu.Add(new Baocaodoanhthu(02, "Doanh thu quý 1", "31/03/2021", chiNhanh[1], 29000000));
             baocaodoanhthu.Add(new Baocaodoanhthu(03, "Doanh thu quý 1", "31/03/2021", chiNhanh[2], 25000000));
             baocaodoanhthu.Add(new Baocaodoanhthu(04, "Doanh thu quý 1", "31/03/2021", chiNhanh[3], 53000000));
             baocaodoanhthu.Add(new Baocaodoanhthu(05, "Doanh thu quý 1", "31/03/2021", chiNhanh[4], 61000000));
             baocaodoanhthu.Add(new Baocaodoanhthu(06, "Doanh thu quý 1", "31/03/2021", chiNhanh[0], 19000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(07, "Doanh thu quý 1", "31/03/2021", chiNhanh[5], 55000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(08, "Doanh thu quý 1", "31/03/2021", chiNhanh[5], 77000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(09, "Doanh thu quý 1", "31/03/2021", chiNhanh[2], 62000000));
 
-            baocaodoanhthu.Add(new Baocaodoanhthu(01, "Doanh thu quý 2", "30/06/2021", chiNhanh[0], 80000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(02, "Doanh thu quý 2", "30/06/2021", chiNhanh[1], 15000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(03, "Doanh thu quý 2", "30/06/2021", chiNhanh[2], 175000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(04, "Doanh thu quý 2", "30/06/2021", chiNhanh[3], 40000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(05, "Doanh thu quý 2", "30/06/2021", chiNhanh[4], 30000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(06, "Doanh thu quý 2", "30/06/2021", chiNhanh[0], 50000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(07, "Doanh thu quý 2", "30/06/2021", chiNhanh[5], 33000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(08, "Doanh thu quý 2", "30/06/2021", chiNhanh[3], 39000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(09, "Doanh thu quý 2", "30/06/2021", chiNhanh[1], 58000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(07, "Doanh thu quý 2", "30/06/2021", chiNhanh[0], 80000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(08, "Doanh thu quý 2", "30/06/2021", chiNhanh[1], 15000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(09, "Doanh thu quý 2", "30/06/2021", chiNhanh[2], 175000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(10, "Doanh thu quý 2", "30/06/2021", chiNhanh[3], 40000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(11, "Doanh thu quý 2", "30/06/2021", chiNhanh[4], 30000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(12, "Doanh thu quý 2", "30/06/2021", chiNhanh[5], 33000000));
 
-            baocaodoanhthu.Add(new Baocaodoanhthu(01, "Doanh thu quý 3", "30/09/2021", chiNhanh[0], 70000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(02, "Doanh thu quý 3", "30/09/2021", chiNhanh[1], 65000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(03, "Doanh thu quý 3", "30/09/2021", chiNhanh[4], 35000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(04, "Doanh thu quý 3", "30/09/2021", chiNhanh[3], 119000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(05, "Doanh thu quý 3", "30/09/2021", chiNhanh[4], 25000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(06, "Doanh thu quý 3", "30/09/2021", chiNhanh[5], 49000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(07, "Doanh thu quý 3", "30/09/2021", chiNhanh[0], 61000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(08, "Doanh thu quý 3", "30/09/2021", chiNhanh[0], 93000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(09, "Doanh thu quý 3", "30/09/2021", chiNhanh[3],14000000));
 
-            baocaodoanhthu.Add(new Baocaodoanhthu(01, "Doanh thu quý 4", "31/12/2021", chiNhanh[0], 50000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(02, "Doanh thu quý 4", "31/12/2021", chiNhanh[1], 100000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(03, "Doanh thu quý 4", "31/12/2021", chiNhanh[2], 75000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(04, "Doanh thu quý 4", "31/12/2021", chiNhanh[3], 30000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(05, "Doanh thu quý 4", "31/12/2021", chiNhanh[4], 60000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(06, "Doanh thu quý 4", "31/12/2021", chiNhanh[5], 10000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(07, "Doanh thu quý 4", "31/12/2021", chiNhanh[0], 25000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(08, "Doanh thu quý 4", "31/12/2021", chiNhanh[0], 37000000));
-            baocaodoanhthu.Add(new Baocaodoanhthu(09, "Doanh thu quý 4", "31/12/2021", chiNhanh[1], 42000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(13, "Doanh thu quý 3", "30/09/2021", chiNhanh[0], 70000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(14, "Doanh thu quý 3", "30/09/2021", chiNhanh[1], 65000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(15, "Doanh thu quý 3", "30/09/2021", chiNhanh[4], 35000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(16, "Doanh thu quý 3", "30/09/2021", chiNhanh[3], 119000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(17, "Doanh thu quý 3", "30/09/2021", chiNhanh[5], 49000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(18, "Doanh thu quý 3", "30/09/2021", chiNhanh[2], 93000000));
+
+            baocaodoanhthu.Add(new Baocaodoanhthu(19, "Doanh thu quý 4", "31/12/2021", chiNhanh[0], 50000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(20, "Doanh thu quý 4", "31/12/2021", chiNhanh[1], 100000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(21, "Doanh thu quý 4", "31/12/2021", chiNhanh[2], 75000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(22, "Doanh thu quý 4", "31/12/2021", chiNhanh[3], 30000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(23, "Doanh thu quý 4", "31/12/2021", chiNhanh[4], 60000000));
+            baocaodoanhthu.Add(new Baocaodoanhthu(24, "Doanh thu quý 4", "31/12/2021", chiNhanh[5], 10000000));
+
 
         }
 
         // 1. Liệt kê danh sách mã thành viên và tên thành viên của cac phòng gym o Q9
         public static void Linq01()
         {
-            // lambda
                 var ds = thanhvien.Where(tv => tv.chinhanh.diaChi == "Quan 9" );
                 Console.WriteLine("Thông tin mã và tên của các thành viên ở Q9:");
                 foreach (var item in ds)
@@ -289,6 +278,88 @@ namespace Quan_Ly_Phong_Gym
                     Console.WriteLine("{0} - {1}",
                       item.ma_TV, item.ten_TV);
                 }
+        }
+        // 2.Cho biết tên của những thành viên mua sản phẩm Whey Protein ở phòng gym Q9
+        public static void Linq02()
+        {
+            var ds = qlsp.Where(p => p.sanpham.Ten_SP == "Whey Protein" && p.thanhvien.chinhanh.diaChi=="Quan 9");
+            Console.WriteLine("Thông tin tên của các thành viên mua Whey Protein ở chi nhánh Q9:");
+            foreach (var item in ds)
+            {
+                Console.WriteLine("{0}",
+                  item.thanhvien.ten_TV);
+            }
+        }
+        // 3.Cho biết tên chi nhánh nào có doanh thu thấp nhất trong quý 1
+        public static void Linq03()
+        {
+            var ds = baocaodoanhthu.Where(p => p.doanhthu == baocaodoanhthu.TakeWhile(e => e.ten_baocao == "Doanh thu quý 1").Min(i => i.doanhthu));
+            Console.WriteLine(ds.First().chinhanh.diaChi);
+        }
+        // 4.Cho biết thành viên Nguyễn Văn A đã tham gia những lớp học nào trog phòg gym Q9 
+        public static void Linq04()
+        {
+            var ds = thanhvien.Where(p => p.ten_TV == "Nguyen Van A").SelectMany(e=>e.lichtap);
+            foreach(var item in ds)
+            {
+                Console.WriteLine(item.activity);
+            }
+        }
+        // 5.Cho biết các loại thẻ đã hết hạn và tên thành viên sở hữu thẻ
+        public static void Linq05()
+        {
+            var ds = thanhvien.Where(p => p.the.trangthai == Trangthai.hethoatdong);
+            Console.WriteLine("Danh sách thẻ đã hết hạn và tên các thành viên sở hữu thẻ đã hết hạn:\n");
+            foreach (var item in ds)
+            {
+                Console.WriteLine("Thẻ: {0} - Chủ thẻ: {1}",item.the.loaithe,item.ten_TV);
+            }
+        }
+        // 6.Liệt kê mã và địa chỉ chi nhánh của phòng Gym Duc-Uyen cơ sở 1
+        public static void Linq06()
+        {
+            var ds = chiNhanh.Where(p => p.gym.tenphongGym == "Duc-uyen co so 1");
+            Console.WriteLine("Danh sách các chi nhánh của phòng Gym Duc-Uyen cơ sở 1:\n");
+            foreach (var item in ds)
+            {
+                Console.WriteLine("{0} - {1}", item.maChiNhanh, item.diaChi);
+            }
+        }
+        // 7.Cho biết mã và tên thiết bị không hoạt động của những phòng gym ở Q9
+        public static void Linq07()
+        {
+            var ds = sp.Where(p => p.tinhtrang == loaitinhtrang.huhong || p.tinhtrang == loaitinhtrang.quahan);
+            Console.WriteLine("Danh sách mã và tên thiết bị không hoạt động ở những phòng gym Q9:\n");
+            foreach (var item in ds)
+            {
+                Console.WriteLine("{0} - {1} ở phòng Gym {2}", item.ID_SP, item.Ten_SP, item.chinhanh.gym.tenphongGym);
+            }
+        }
+        // 8.Cho biết những thành viên nào sở hữu thẻ platium tại những phòg tập gym ở q9.
+        public static void Linq08()
+        {
+            var ds = thanhvien.Where(p => p.the.loaithe == Loaithe.Platinum);
+            Console.WriteLine("Danh sách tên của những thành viên sở hữu thẻ platium tại những phòng tập gym ở q9:\n");
+            foreach (var item in ds)
+            {
+                Console.WriteLine("{0}", item.ten_TV);
+            }
+        }
+        // 9.Cho biết loại giao dịch của thành viên Tran Van D nhiều nhất.
+        public static void Linq09()
+        {
+            var ds = giaodich.Where(p => p.money == giaodich.Where(e => e.thanhvien.ten_TV == "Tran Van D").Max(i=>i.money));
+            Console.WriteLine("{0} với số tiền: {1}",ds.FirstOrDefault().trans_name, ds.FirstOrDefault().money);
+        }
+        // 10.Liệt kê tên các nhân viên là PT ở Q9.
+        public static void Linq10()
+        {
+            var ds = nhanvien.Where(p => p.chinhanh.diaChi == "Quan 9");
+            Console.WriteLine("Danh sách tên của những tên các nhân viên làm PT tại những phòng tập gym ở q9:\n");
+            foreach (var item in ds)
+            {
+                Console.WriteLine("{0}", item.ten_nv);
+            }
         }
         static void Main(string[] args)
         {
@@ -299,18 +370,26 @@ namespace Quan_Ly_Phong_Gym
             Taochinhanh();
             TaoloaiSP();
             Taosanpham();
-            
             Taonhanvien();
             Taothanhvien();
             Taolich();
             Taoquanlisanpham();
             Taodanhsachgiaodich();
             Taodanhsachbaocaodoanhthu();
-            
-            
-            
+
+
+
             //Ham truy van
-            Linq01();
+            //Linq01();
+            //Linq02();
+            //Linq03();
+            //Linq04();
+            //Linq05();
+            //Linq06();
+            //Linq07();
+            //Linq08();
+            //Linq09();
+            //Linq10();
             /*Console.WriteLine("Hello World!");*/
             Console.ReadKey();
         }
